@@ -1,0 +1,476 @@
+@media(max-width:1900px) {
+  .serf__conquer {
+    display: none;
+  }
+
+  .serf__title {
+    max-width: 100%;
+  }
+
+  .serf__text {
+    max-width: 100%;
+  }
+
+  .serf {
+    padding: 150px 0;
+  }
+}
+
+@media(max-width:1220px) {
+  .header__logo {
+    margin-right: 0;
+  }
+
+  .menu {
+    margin: 0 auto;
+  }
+
+  .info {
+    padding: 80px 0;
+  }
+
+  .info__text {
+    justify-content: center;
+  }
+
+  .info__text p {
+    margin-right: 10px;
+  }
+
+  .title {
+    margin-bottom: 70px;
+  }
+
+  .school {
+    padding: 100px 0;
+  }
+
+  .serf__conquer {
+    display: none;
+  }
+
+  .serf__title {
+    max-width: 100%;
+  }
+
+  .serf__text {
+    max-width: 100%;
+  }
+
+  .serf {
+    padding: 40px 0;
+  }
+
+  .gallery__list {
+    justify-content: center;
+  }
+
+  .gallery__content {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+  }
+
+  .team__items,
+  .pricing__items {
+    column-gap: 20px;
+  }
+
+  .map {
+    display: none;
+  }
+
+  .request__inner {
+    display: block;
+  }
+
+  .form {
+    max-width: 570px;
+    margin: 0 auto;
+  }
+
+  .form__button {
+    margin-bottom: 50px;
+  }
+
+  .request__contact {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width:992px) {
+  .header__icon {
+    margin-bottom: 30px;
+  }
+
+  .menu {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100px;
+    background-color: #fff;
+    display: block;
+    text-align: center;
+    transform: translateY(-200%);
+    transition-duration: 0.5s;
+  }
+
+  .menu.menu__active {
+    transform: translateY(0%);
+  }
+
+  .header__top {
+    justify-content: space-between;
+  }
+
+  .header__btn {
+    display: block;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+  }
+
+  .menu__item:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .menu__link {
+    display: block;
+    padding: 42px 0;
+    color: #000;
+  }
+
+  .menu__link {
+    border-bottom: none;
+  }
+
+  .header__title {
+    font-size: 170px;
+    line-height: 1;
+  }
+
+  .header__subtitle {
+    font-size: 18px;
+  }
+
+  .title {
+    font-size: 40px;
+  }
+
+  .info__text p {
+    max-width: 480px;
+    margin-right: 10px;
+  }
+
+  .title::after {
+    font-size: 1.5em;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .info__text p {
+    max-width: 350px;
+    margin-right: 10px;
+  }
+
+  .school__items {
+    display: block;
+    margin-bottom: 0;
+  }
+
+
+  .school__heading {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .school__text {
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .school__percent {
+    top: 14px;
+    right: 0;
+  }
+
+  .school__box,
+  .school__wave--training {
+    max-width: 300px;
+  }
+
+  .school__inner {
+    display: block;
+  }
+
+  .school__waves {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .school__descr {
+    max-width: 100%;
+  }
+
+  .serf__text {
+    font-size: 14px;
+  }
+
+  .serf {
+    padding: 60px 0;
+  }
+
+  .serf__title {
+    margin-bottom: 80px;
+  }
+
+  .eze {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 25px;
+  }
+
+  .eze span {
+    margin: 0 auto;
+    position: relative;
+    top: 12px;
+  }
+
+  .eze span:before,
+  .eze span:after {
+    position: absolute;
+    content: '';
+  }
+
+  .eze span,
+  .eze span:before,
+  .eze span:after {
+    width: 30px;
+    height: 6px;
+    background-color: #000;
+    display: block;
+  }
+
+  .eze span:before {
+    margin-top: -12px;
+  }
+
+  .eze span:after {
+    margin-top: 12px;
+  }
+
+  .example5 span {
+    -webkit-transition-duration: 0s;
+    transition-duration: 0s;
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+  }
+
+  .example5:hover span {
+    background-color: rgba(0, 0, 0, 0.0);
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+  }
+
+  .example5 span:before {
+    -webkit-transition-property: margin, -webkit-transform;
+    transition-property: margin, transform;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-delay: 0.2s, 0s;
+    transition-delay: 0.2s, 0s;
+  }
+
+  .example5:hover span:before {
+    margin-top: 0;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transition-delay: 0s, 0.2s;
+    transition-delay: 0s, 0.2s;
+  }
+
+  .example5 span:after {
+    -webkit-transition-property: margin, -webkit-transform;
+    transition-property: margin, transform;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-delay: 0.2s, 0s;
+    transition-delay: 0.2s, 0s;
+  }
+
+  .example5:hover span:after {
+    margin-top: 0;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-transition-delay: 0s, 0.2s;
+    transition-delay: 0s, 0.2s;
+  }
+
+  .header__content {
+    height: calc(100vh - 120px);
+  }
+
+  .info {
+    padding: 60px 0;
+  }
+
+  .title {
+    margin-bottom: 60px;
+  }
+
+  .request {
+    padding: 60px 0;
+  }
+
+  .request__inner {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width:768px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .school {
+    padding: 40px 0;
+  }
+
+  .school__text,
+  .school__descr,
+  .serf__text {
+    font-size: 14px;
+  }
+
+  .numbers {
+    flex-direction: column;
+  }
+
+  .numbers__item:not(:last-child) {
+    margin-right: 0;
+  }
+
+  .gallery__btn {
+    font-size: 14px;
+  }
+
+  .gallery__show {
+    margin-bottom: 70px;
+  }
+
+  .blockquote__inner {
+    font-size: 16px;
+  }
+
+  .blockquote__inner {
+    margin-bottom: 100px;
+  }
+
+  .video {
+    margin-bottom: 80px;
+    height: 400px;
+  }
+
+  .gallery {
+    padding-bottom: 80px;
+  }
+
+  .btn {
+    padding: 20px 55px;
+  }
+
+  .gallery__list {
+    margin-bottom: 20px;
+  }
+
+  .slider-blog__heading {
+    font-size: 26px;
+  }
+
+  .slider-blog {
+    padding-bottom: 60px;
+  }
+
+  .slider-blog__inner {
+    height: 500px;
+  }
+
+  .team {
+    padding-bottom: 60px;
+  }
+
+  .pricing__items {
+    display: block;
+    text-align: -webkit-center;
+  }
+
+  .pricing__box {
+    margin-bottom: 25px;
+  }
+
+  .pricing {
+    padding: 60px 0;
+  }
+
+  .request__contact {
+    padding: 5px;
+  }
+
+  form {
+    min-width: 300px;
+    margin-right: 0;
+  }
+
+  .social {
+    font-size: 14px;
+  }
+}
+
+@media (max-width:576px) {
+  .info {
+    padding: 30px 0;
+  }
+
+  .title {
+    margin-bottom: 30px;
+  }
+
+  .header__title {
+    font-size: 95px;
+  }
+
+  .title {
+    font-size: 14px;
+  }
+
+  .info__text p,
+  .header__subtitle,
+  .school__heading {
+    font-size: 14px;
+  }
+
+  .serf {
+    padding: 100px 0 100px;
+  }
+
+  .menu__link {
+    padding: 25px 0;
+  }
+
+  .serf {
+    padding: 15px 0;
+  }
+
+  .team__items {
+    display: block;
+  }
+
+  .team__img {
+    margin: 0 auto;
+  }
+}
